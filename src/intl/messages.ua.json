@@ -1,0 +1,26 @@
+{
+  "cancel": "Скасувати",
+  "language": "Мова",
+  "login": "Увiйти",
+  "logout": "Вийти",
+  "page.login": "Login",
+  "page.initial": "Main",
+  "password": "Пароль",
+  "signIn": "Вхiд",
+  "signUp": "Вихiд",
+
+  "books.list": "Список книг",
+  "books.addBook": "Додати книгу",
+  "books.id": "Id",
+  "books.title": "Назва",
+  "books.isbn": "Isbn",
+  "books.publishedDate": "Дата Публікації",
+  "books.actions": "Дії",
+  "books.tooltip.edit": "Відредагувати книгу",
+  "books.tooltip.delete": "Видалити книгу",
+
+  "addEditBook.title.edit": "Редагування книги",
+  "addEditBook.title.add": "Додавання нової книги",
+  "addEditBook.cancel": "Скасувати",
+  "addEditBook.save": "Зберегти"
+}

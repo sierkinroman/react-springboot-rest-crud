@@ -1,0 +1,26 @@
+{
+  "cancel": "Cancel",
+  "language": "Language",
+  "login": "Login",
+  "logout": "Logout",
+  "page.login": "Login",
+  "page.initial": "Main",
+  "password": "Password",
+  "signIn": "Sign in",
+  "signUp": "Sign up",
+
+  "books.list": "Books list",
+  "books.addBook": "Add book",
+  "books.id": "Id",
+  "books.title": "Title",
+  "books.isbn": "Isbn",
+  "books.publishedDate": "Published Date",
+  "books.actions": "Actions",
+  "books.tooltip.edit": "Edit book",
+  "books.tooltip.delete": "Delete book",
+
+  "addEditBook.title.edit": "Edit book",
+  "addEditBook.title.add": "Add new book",
+  "addEditBook.cancel": "Cancel",
+  "addEditBook.save": "Save"
+}
