@@ -5,7 +5,7 @@ import React, {
 import {
   useDispatch,
   useSelector
-} from "react-redux";
+} from 'react-redux';
 import {
   clearState,
   fetchBooks,
@@ -50,7 +50,6 @@ const BooksList = () => {
   const dispatch = useDispatch();
   const [showActionId, setShowActionId] = useState(-1);
   const { formatMessage } = useIntl();
-
   const {
     books,
     isFetchingBooks,
@@ -58,7 +57,8 @@ const BooksList = () => {
     isFailedFetchBooks,
 
     isFetchingDeleteBook,
-  } = useSelector(({ bookListReducer }) => bookListReducer)
+  } = useSelector(({ bookListReducer }) => bookListReducer);
+
   useEffect(() => {
     dispatch(fetchBooks());
     return () => dispatch(clearState());
@@ -78,7 +78,6 @@ const BooksList = () => {
           <Typography variant='h5' color='secondary'>
             Error while getting all books
           </Typography>
-
         </div>
       )}
 
@@ -103,7 +102,7 @@ const BooksList = () => {
                 size='medium'
               >
                 <AddIcon className={classes.marginRight}/>
-                {formatMessage({ id: 'books.addBook' })}
+                  {formatMessage({ id: 'books.addBook' })}
               </Fab>
             </Link>
           </div>
@@ -156,7 +155,6 @@ const BooksList = () => {
                             {!isFetchingDeleteBook && (
                               <DeleteIcon fontSize='small'/>
                             )}
-
                           </IconButton>
                         </Tooltip>
                       </div>
